@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap-->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Passenger Counter</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 style="font-style:italic; color: blueviolet;">Hey there! </h3>
+                <h1>Passenger Counter</h1>
+                <h2 id="count-el">0</h2>
+                <button id="btn-entered" onclick="passEntered()">Enter</button>
+                <button id="btn-save" onclick="passSaved()">Save</button>
+                <button id="btn-delete" onclick="countDelete()">Delete</button>
+                <button id="btn-delete-all" onclick="countDeleteAll()">Delete all</button>
+                <h5 id="save-el">Total Passengers: </h5>
+                <button id="btn-save-delete-all" onclick="saveDeleteAll()">Delete all</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript file-->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

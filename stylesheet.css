@@ -1,0 +1,57 @@
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.col{
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#btn-entered{
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+#btn-save{
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+#btn-save{
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+#btn-delete{
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+#btn-delete-all{
+    background-color: orangered;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+#btn-save-delete-all{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+}
